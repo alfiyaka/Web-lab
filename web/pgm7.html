@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Button with Random Background</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;   
+      flex-direction: column;  
+    }
+    }
+  </style>
+</head>
+</body>
+  <button onclick="changeBackground()">Click me</button>
+
+ <label> To change background color </label>
+  <script>
+    function changeBackground() {
+      let r = Math.floor(Math.random() * 256);
+      let g = Math.floor(Math.random() * 256);
+      let b = Math.floor(Math.random() * 256);
+
+      document.body.style.backgroundColor = "rgb("+r+" ,"+g+","+b+")";
+    }
+  </script>
+
+</html>
+

@@ -1,0 +1,21 @@
+
+<html>
+<head>
+  <title>Internal CSS Example</title>
+  <style>
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      color: darkgray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <p>This paragraph uses internal CSS.</p>
+</body>
+</html>
+
